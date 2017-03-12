@@ -1,0 +1,62 @@
+.employ_inform{
+	width:1000px;
+	height:700px;
+	margin:0 auto;
+}
+.employ_title{
+	width:1000px;
+	height:70px;
+    border-bottom: 1px solid #D0C7C7;
+}
+.employ_title h2{
+	float: left;
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 70px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.employ_main{
+	width:1000px;
+	height:400px;
+	margin-top:30px;
+}
+.employ_tri{
+	width: 0;
+    height: 0;
+    border-width: 30px;
+    border-style: solid;
+    border-color: transparent transparent #E4E0E0 transparent;
+    margin-left: 120px;
+    margin-top: -50px;
+}
+.employ_information{
+	width:1000px;
+	height:350px;
+	box-shadow: 2px 2px 20px #999;
+}
+.employ_text{
+    width: 1000px;
+    height: 350px;
+    padding-top: 30px;
+    line-height: 2.5em;
+}
+.employ_text p{
+	text-align: left;
+    margin-left: 30px;
+}
+.applyFor{
+	width:1000px;
+	height:2em;
+	background:#F0C260;
+	color:#fff;
+    margin-top: 50px;
+    font-size:23px;
+}
+.banner_small {
+    margin: 0 auto;
+    width: 1200px;
+    height: 202px;
+    background-image: url(../img/banner_team.png);
+}

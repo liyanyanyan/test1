@@ -1,0 +1,163 @@
+.banner_small {
+	margin: 0 auto;
+	width: 1200px;
+	height: 202px;
+	background-image: url(../img/banner_team.png);
+}
+.focus{
+	width:1000px;
+	height:400px;
+	margin:0 auto;
+	border-bottom:1px solid #777;
+}
+.focus_title{
+	width: 1000px;
+    height: 70px;
+}
+.focus_title h2{
+	float: left;
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 70px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.focus_news{
+    width: 1000px;
+    height: 300px;
+    margin-top: 20px;
+}
+.focus_man{
+	width:400px;
+	height:300px;
+
+	float:left;
+}
+.focus_pic{
+	width:300px;
+	height:200px;
+	background:#888;
+}
+.focus_pic img{
+    width: inherit;
+    height: inherit;
+}
+.focus_text{
+	width: 300px;
+    height: 90px;
+    margin-top: 20px;
+}
+.everyday_words{
+	width:100px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	color:#fff;
+	background:#E4A639;
+	border-radius: 10px;
+	margin-top:20px;
+}
+.focus_words{
+	width: 300px;
+    height: 50px;
+    margin-top: 10px;
+}
+.focus_new{
+	width:600px;
+	height:300px;
+	float:left;
+}
+.focusNew_title{
+	width:100px;
+	height:30px;
+}
+.focusNew_lists{
+    width: 600px;
+    height: 270px;
+    margin-top: 14px;
+}
+.focusNew_list{
+	width:600px;
+	height:270px;	
+}
+.focusNew_list li{
+	list-style: none;
+    line-height: 2.2em;
+    font-size: 15px;
+}
+.focusNew{
+	display: block;
+    text-align: left;
+    float: left;
+    font-size: 14px;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.focusNew:hover{
+	color:red;
+	text-decoration:underline;
+}
+.focusNew_more{
+	display:block;
+	text-align:right;
+	color:#999;
+}
+.focusNew_more span:hover{
+	color:#000;
+}
+.summery{
+	width:1000px;
+	height:300px;
+	margin:0 auto;
+}
+.summery_title{
+	width:1000px;
+	height:50px;
+}
+.summery_title h2{
+    width: 100px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.summery_main{
+	width:1000px;
+	height:250px;	
+}
+.summery_text{
+	width:600px;
+	height:250px;
+	float:left;
+}
+.summery_tri{
+    width: 0;
+    height: 0;
+    border-width: 30px;
+    border-style: solid;
+    border-color: transparent transparent #E4E0E0 transparent;
+    margin-left: 20px;
+    margin-top: -50px;
+}
+.summery_contain{
+	width:450px;
+	height:200px;
+/*	margin:0 auto;*/
+	box-shadow: 3px 3px 20px #999;
+}
+.summery_photo{
+	width:400px;
+	height:250px;
+	float:left;
+}
+.summery_photo a{
+	display: block;
+    width: 300px;
+    height: 200px;
+}
+.summery_photo img{
+	display: block;
+    width: inherit;
+    height: inherit;
+}

@@ -1,0 +1,36 @@
+.banner_small {
+    margin: 0 auto;
+    width: 1200px;
+    height: 202px;
+    background-image: url(../img/banner_team.png);
+}
+.team_introduction{
+	width:1000px;
+	height:300px;
+	margin:75px auto;
+    box-shadow: 2px 2px 20px #999;
+}
+.team_title{
+    line-height: 70px;
+}
+.team_introduction p{
+    text-align: left;
+    line-height: 2em;
+    font-size: 15px;
+    padding: 0 100px;
+    letter-spacing: 1px;
+    text-indent: 2em;
+}
+.room_style{
+	width:1000px;
+	height:200px;
+	margin:0 auto;
+}
+.photo_show{
+	width:150px;
+	height:150px;
+}
+.photo_show img{
+	width:inherit;
+	height:inherit;
+}

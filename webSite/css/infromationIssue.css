@@ -1,0 +1,125 @@
+.banner_small {
+    margin: 0 auto;
+    width: 1200px;
+    height: 202px;
+    background-image: url(../img/banner_team.png);
+}
+.messages{
+    width: 1000px;
+    margin: 0px auto;
+    font-size: 14px;
+    padding-top: 30px;
+    -webkit-columns: 150px 3;
+    -webkit-column-rule: 1px solid #888;
+    -webkit-column-gap: 40px;
+    -moz-columns: 300px 3;
+    -moz-column-rule: 1px solid #888;
+    -moz-column-gap: 40px;
+    columns: 300px 3;
+    column-rule: 1px solid #888;
+    column-gap: 40px;
+}
+.message_line{
+	width: 1000px;
+    height: 70px;
+    border-bottom: 1px solid #D0C7C7;
+    margin: 0 auto;
+}
+.message_line h2{
+	float: left;
+    display: block;
+    width: 145px;
+    height: 50px;
+    line-height: 70px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.message_line a{
+	display: block;
+    width: 100px;
+    height: 70px;
+    float: right;
+    line-height: 120px;
+    margin-right: 5px;
+    font-size: 20px;
+	color:#888;
+}
+.message_line a:hover{
+    color: #000;
+}
+
+
+.messages a:hover{
+	color:#777;
+}
+.messages p{
+    font-size: 13px;
+    text-align: left;
+    line-height: 25px;
+    text-indent: 2em;
+    padding: 15px;
+}
+.informs{
+	width:1000px;
+	height:300px;
+	margin:0 auto;
+}
+.inform_line{
+	width: 1000px;
+    height: 70px;
+    border-bottom: 1px solid #D0C7C7;
+    margin-bottom: 30px;
+}
+.inform_line h2{
+	float: left;
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 70px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.inform_line a{
+	display: block;
+    width: 100px;
+    height: 70px;
+    float: right;
+    line-height: 120px;
+    margin-right: 5px;
+    font-size: 20px;
+	color:#888;
+}
+.inform_line a:hover{
+    color: #000;
+}
+.informs_main{
+	width:1000px;
+	height:230px;
+}
+.informs_main ul{   
+    width: 600px;
+    height: 150px;
+    line-height: 2.5em;
+    font-size: 14px;
+}
+.informs_main li{
+    width:100%;
+    height:25%;
+}
+.informs_main a{
+    display: block;
+    text-align: left;
+    float: left;
+    font-size: 14px;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.informs_main span{
+    float:right;
+}
+.informs_main a:hover{
+	color:red;
+	text-decoration:underline;
+}

@@ -1,0 +1,43 @@
+.banner_small {
+  margin: 0 auto;
+  width: 1200px;
+  height: 202px;
+  background-image: url(../img/banner_team.png); }
+
+.apply {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto; }
+  .apply h2 {
+    float: left;
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 70px;
+    font-weight: 300; }
+
+.apply_title {
+  width: 1000px;
+  height: 70px;
+  border-bottom: 3px solid #F2F2F2; }
+
+.apply_form {
+  width: 960px;
+  height: 450px;
+  margin-top: 30px;
+  padding-top: 30px;
+  box-shadow: 2px 2px 20px #999;
+  margin-left: 20px; }
+
+.form {
+  width: 980px;
+  height: 450px;
+  margin: 0 auto; }
+  .form label {
+    width: 50%;
+    float: left;
+    margin: 20px 0; }
+  .form input {
+    text-align: left; }
+
+/*# sourceMappingURL=test.css.map */

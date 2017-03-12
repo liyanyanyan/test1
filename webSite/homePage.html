@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>homePage</title>
+	<link rel="stylesheet" href="css/homePage.css">
+	<link rel="stylesheet" href="css/sameSection.css" />
+	<link rel="stylesheet" href="css/jquery.e-calendar.css"/>
+	<script src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.e-calendar.js"></script>
+    <script type="text/javascript" src="js/index1.js"></script>
+	<script src="js/index.js"> </script>
+</head>
+<body>
+		<!-- 登录注册 -->
+		<header class="top">
+			<div class="header">
+				<div class="logo">
+					<img src="img/cd_univercity_logo01.png" alt="图片">
+				</div>
+				<ul class="login">
+					<li><a href="javascript:void(0);" class="text" target="_blank">登录</a></li>
+					<li><a href="javascript:void(0);" class="text" target="_blank">注册</a></li>
+				</ul>
+			</div>
+		</header>
+		<!-- 页面导航 -->
+		<nav class="nav_bar">
+			<ul class="introduction_bar">
+				<li class="nav_title active" title="col">
+					<a href="homePage.html">首页</a>
+				</li>
+				<li class="nav_title show_more">
+					<a href="javascript:void(0);">团队概况</a>
+					<ul class="team_introduce more">
+						<li class="extension"><a href="membersIntro.html">成员介绍</a></li>
+						<li class="extension"><a href="aboutTeam.html">关于团队</a></li>
+					</ul>
+				</li>
+				<li class="nav_title">
+					<a href="infromationIssue.html">消息发布</a>
+				</li>
+				<li class="nav_title ">
+					<a href="teamFocus.html">团队焦点</a>
+				</li>
+				<li class="nav_title show_more">
+					<a href="javascript:void(0);">团队招聘</a>
+					<ul class="recruit more">
+						<li class="extension"><a href="employInform.html">招聘信息</a></li>
+						<li class="extension"><a href="jobApply.html">我要应聘</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<div class="banner_small"></div>
+<!-- 轮播图 -->
+	<div class="banner" style="width: 1300px;height: 400px;margin: 0 auto;">
+		<div class="left"><a href="javascript:void(0);">&lt;</a></div>
+		<div class="right"><a href="javascript:void(0);">&gt;</a></div>
+		<div class="pictures">
+			<ul>
+				<li class="picture">
+					<a href="javascript:void(0);">
+						<img src="img/banner01.jpg" alt="图片">
+					</a>
+				</li>
+				<li class="picture">
+					<a href="javascript:void(0);">
+						<img src="img/banner02.jpg" alt="图片">
+					</a>
+				</li>
+				<li class="picture">
+					<a href="javascript:void(0);">
+						<img src="img/banner03.jpg" alt="图片">
+					</a>
+				</li>
+				<li class="picture">
+					<a href="javascript:void(0);">
+						<img src="img/banner04.jpg" alt="图片">
+					</a>
+				</li>
+				<li class="picture">
+					<a href="javascript:void(0);">
+						<img src="img/banner05.jpg" alt="图片">
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="chioces">
+			<ul>
+				<li class="choice bg"><a href="javascript:void(0)"  target="_blank"> </a></li> 
+				<li class="choice"><a href="javascript:void(0)"  target="_blank"> </a></li> 
+				<li class="choice"><a href="javascript:void(0)"  target="_blank"> </a></li> 
+				<li class="choice"><a href="javascript:void(0)"  target="_blank"> </a></li> 
+				<li class="choice"><a href="javascript:void(0)"  target="_blank"> </a></li> 
+			</ul>
+		</div>
+	</div>
+<!-- 日历 -->
+	<div id="calendar">
+			<div class="time"></div>
+			<div class="year"></div>
+			<div class="calendar_show"></div>
+			<div class="date_set">日期和设置时间</div>
+	</div>
+<!-- 新闻头条 -->
+	<div class="news">
+		<div class="news_headline headline">
+			<h2>新闻头条</h2>
+			<a href="javascript:void(0);"  target="_blank">more &gt;&gt;</a>
+		</div>
+		<div class="news_line"></div>
+		<div class="new_main">
+			<div class="new new_left">
+				<div class="the_day">
+					<div class="the_day_year"></div>
+					<div class="line"></div>
+					<div class="the_day_month"></div>
+				</div>
+				<div class="new_contains">
+					<div class="new_title">
+						<h4>高水平办好成都大学</h4>
+					</div>
+					<div class="new_contain">
+						<a href="javascript:void(0)"  target="_blank">
+							<p>成都市政府工作报告再添新举2017年1月6日，成都市第十六届人民代表大会第五次会议在锦江大礼堂举行。罗强代表市政府向大会作工作报告，指出：“规划筹建成都艺术学院，高水平办好成都大学”。</p>
+						</a>
+					</div>
+				</div>		
+			</div>
+			<div class="new new_center">
+				<div class="the_day">
+					<div class="the_day_year"></div>
+					<div class="line"></div>
+					<div class="the_day_month"></div>
+				</div>
+				<div class="new_contains">
+					<div class="new_title">
+						<h4>高水平办好成都大学</h4>
+					</div>
+					<div class="new_contain">
+						<a href="javascript:void(0)"   target="_blank">
+							<p>成都市政府工作报告再添新举2017年1月6日，成都市第十六届人民代表大会第五次会议在锦江大礼堂举行。罗强代表市政府向大会作工作报告，指出：“规划筹建成都艺术学院，高水平办好成都大学”。</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="new new_right">
+				<div class="the_day">
+					<div class="the_day_year"></div>
+					<div class="line"></div>
+					<div class="the_day_month"></div>
+				</div>
+				<div class="new_contains">
+					<div class="new_title">
+						<h4>高水平办好成都大学</h4>
+					</div>
+					<div class="new_contain">
+						<a href="javascript:void(0)"  target="_blank">
+							<p>成都市政府工作报告再添新举2017年1月6日，成都市第十六届人民代表大会第五次会议在锦江大礼堂举行。罗强代表市政府向大会作工作报告，指出：“规划筹建成都艺术学院，高水平办好成都大学”。</p>
+						</a>
+					</div>
+				</div>												
+			</div>
+		</div>
+	</div>
+<!-- 团队成果 -->
+	<div class="team_work news">
+		<div class="team_work_headline headline">
+			<h2>团队成果</h2>
+		</div>
+		<div class="team_main new_main">
+			<div class="team_contains team_left new">
+				<div class="team_contain_title new_title">
+					<h4>团队获科创杯一等奖</h4>
+				</div>
+				<div class="team_contain new_contain">
+					<a href="javascript:void(0)"  target="_blank">
+						<p>成都市政府工作报告再添新举2017年1月6日，成都市第十六届人民代表大会第五次会议在锦江大礼堂举行。罗强代表市政府向大会作工作报告，指出：“规划筹建成都艺术学院，高水平办好成都大学”。</p>
+					</a>
+				</div>
+			</div>
+			<div class="team_contains team_right new">
+				<div class="team_contain_title new_title">
+					<h4>团队获科创杯一等奖</h4>
+				</div>
+				<div class="team_contain new_contain">
+					<a href="javascript:void(0)"  target="_blank">
+						<p>成都市政府工作报告再添新举2017年1月6日，成都市第十六届人民代表大会第五次会议在锦江大礼堂举行。罗强代表市政府向大会作工作报告，指出：“规划筹建成都艺术学院，高水平办好成都大学”。</p>
+					</a>
+				</div>
+			</div>
+			<div class="team_contains team_banner">
+				<div class="team_pics">
+					<div class="team_sorrow team_sorrow_left"><a href="javascript:void(0)">&lt;</a></div>
+					<div class="team_sorrow team_sorrow_right"><a href="javascript:void(0)">&gt;</a></div>
+					<div class="team_pictures">
+						<ul>
+							<li class="team_pic">
+								<a href="javascript:void(0)"  target="_blank">
+									<img src="img/01.jpg" alt="图片">
+								</a>
+							</li>
+							<li class="team_pic">
+								<a href="javascript:void(0)"  target="_blank">
+									<img src="img/02.jpg" alt="图片">
+								</a>
+							</li>
+							<li class="team_pic">
+								<a href="javascript:void(0)"  target="_blank">
+									<img src="img/03.jpg" alt="图片">
+								</a>
+							</li>
+							<li class="team_pic">
+								<a href="javascript:void(0)"  target="_blank">
+									<img src="img/04.jpg" alt="图片">
+								</a>
+							</li>
+							<li class="team_pic">
+								<a href="javascript:void(0)"  target="_blank">
+									<img src="img/05.jpg" alt="图片">
+								</a>
+						    </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 常用链接 -->
+	<div class="common_link">
+ 		<div class="common_link_title" style="width: 200px;height: 50px;margin-left: 175px;">
+			<h2>常用链接</h2>
+		</div>
+		<div class="common_link_show">
+			<ul>
+				<li>
+					<a href="javascript:void(0);"  target="_blank"><img src="img/1.png" alt="图片"></a>
+				</li>
+				<li>
+					<a href="javascript:void(0);"  target="_blank"><img src="img/2.png" alt="图片"></a>
+				</li>
+				<li>
+					<a href="javascript:void(0);"  target="_blank"><img src="img/3.png" alt="图片"></a>
+				</li>
+				<li>
+					<a href="javascript:void(0);"  target="_blank"><img src="img/4.png" alt="图片"></a>
+				</li>
+			</ul>
+	    </div>
+	</div>
+    <!-- 联系方式 -->
+			<div class="page_links">
+					<ul class="links">
+						<li>
+							<a href="membersIntro.html" target="_blank">成员介绍</a>
+						</li>
+						<li>
+							<a href="aboutTeam.html" target="_blank">关于团队</a>
+						</li>
+						<li>
+							<a href="teamFocus.html" target="_blank">团队焦点</a>
+						</li>
+						<li>
+							<a href="employInform.html" target="_blank">招聘信息</a>
+						</li>
+						<li>
+							<a href="jobApply.html" target="_blank">我要应聘</a>
+						</li>
+					</ul>
+			</div>
+			<footer>
+				<address class="address">
+					<ul>
+						<li>电话查号台：010-62793001</li>
+						<li>管理员信箱：xinxiban@tsinghua.edu.cn</li>
+						<li>地址：成都市龙泉驿区成都大学</li>
+					</ul>
+				</address>
+			</footer>
+
+  </body>
+</html>
