@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding: 0;
+   font-family: "微软雅黑";
+}
+body{
+	background: url(../img/bg.jpg)  no-repeat left top;
+	background-size: 100%
+}
+a{
+    text-decoration: none;
+}
+h1{
+	color: #fff;
+    font-family: cursive;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.acount{
+    width: 500px;
+    height: 160px;
+    margin: 0 auto;
+    background: #053E59;
+    border-radius: 20px;
+    position: relative;
+    top: 15px;
+}
+label{
+    display: block;
+    color: #fff;
+    padding: 15px 30px 5px 15px;	
+}
+input{
+	width:75%;
+    height: 2em;
+    outline:none;
+}
+button{
+	padding: 4px 10px;
+    background-color: #0175DA;
+    border-radius: 5px;
+    margin-left: 98px;
+    margin-top: 20px;
+    border:none;
+}
+img{
+	display: block;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    margin-right: 45px;
+}

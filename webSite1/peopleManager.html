@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>peopleManager</title>
+	<link rel="stylesheet" href="css/peopleManager.css">
+	<script src="js/jquery.min.js"> </script>
+	<script src="js/index.js"> </script>
+	<script>
+	  //如果不是选中，则设置为选中状态
+    function allCheck(){  
+        $('input:checkbox').each(function(){  
+			$(this).prop('checked',true);    
+    	} 
+	)}
+
+   function allDel(){  
+        $('input:checkbox').each(function(){  
+            $(this).prop('checked',false);
+   		}
+	)}
+	</script>
+</head>
+<body>
+	<header>
+		<h1>514后台管理系统</h1>
+		<ul>
+			<li>
+				<a href="login.html">
+					<img src="img/homePage.png" alt="图片">
+					<span>首页</span>
+				</a>
+			</li>
+			<li>
+				<a href="peopleManager.html">
+					<img src="img/manager.png" alt="图片">
+					<span>管理员</span>
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/exit.png" alt="图片">
+					<span>安全退出</span>
+				</a>
+			</li>
+		</ul>
+	</header>
+	<section>
+		<div class="sidebar">
+			<ul>
+				<li>
+					<a href="peopleManager.html">人员管理</a>
+				</li>
+				<li>
+					<a href="infoManager.html">信息管理</a>
+				</li>
+			</ul>
+		</div>
+		<div class="user_manager">
+			<div class="manager_title">
+				<h2>用户管理</h2>
+				<input type="button" value="添加" onclick="" class="add">  
+				<input type="button" value="全选" onclick="allCheck();" class="all"> 
+				<input type="button" value="取消" onclick="allDel();" class="del_all">   
+			</div>
+			<table>
+				<thead>
+					<tr>
+						<th>hh</th>
+						<th>姓名</th>
+						<th>密码</th>
+						<th>个人信息</th>
+						<th>权限</th>
+						<th>编辑</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><input type="checkbox" name="choice" class="choice" value="0"></td>
+						<td>春琳</td>
+						<td>*****</td>
+						<td>。。。。。</td>
+						<td>管理员</td>
+						<td>
+							<button type="text" class="del">删除</button>
+							<button type="text" class="change">修改</button> 	
+						</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="choice" class="choice" value="0"></td>
+						<td>春琳</td>
+						<td>*****</td>
+						<td>。。。。。</td>
+						<td>管理员</td>
+						<td>
+							<button type="text" class="del">删除</button>
+							<button type="text" class="change">修改</button> 	
+						</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="choice" class="choice" value="0"></td>
+						<td>春琳</td>
+						<td>*****</td>
+						<td>。。。。。</td>
+						<td>管理员</td>
+						<td>
+							<button type="text" class="del">删除</button>
+							<button type="text" class="change">修改</button> 	
+						</td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="choice" class="choice" value="0"></td>
+						<td>春琳</td>
+						<td>*****</td>
+						<td>。。。。。</td>
+						<td>管理员</td>
+						<td>
+							<button type="text" class="del">删除</button>
+							<button type="text" class="change">修改</button> 	
+						</td>
+					</tr>										
+				</tbody>
+			</table>
+			<button type="button" name="pageNext" class="pageNext">下一页</button>	
+			<button type="button" name="pageUp" class="pageUp">上一页</button>
+
+		</div>
+	</section>
+</body>
+</html>

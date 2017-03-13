@@ -1,0 +1,273 @@
+*{
+	margin:0;
+	padding: 0;
+   font-family: "微软雅黑";
+}
+ul li{
+	list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+a:focus{
+    color:#000;
+}
+h3{
+    font-weight: normal;
+    font-size: medium;}
+header{
+	width: 100%;
+    height: 100px;
+    background: #B6D9EC;
+}
+header li{
+	float:left;
+    margin-left: 30px;
+	cursor: pointer;
+}
+h1{
+    font-weight: normal;
+    display: inline-block;
+    margin: 50px 0 0 50px;
+    font-family: -webkit-pictograph;
+}
+header ul{
+    float: right;
+    margin: 50px 40px 0 0;
+}
+.sidebar{
+	width: 15%;
+    height: 610px;
+	float:left;
+	background: #A4D1E6;
+}
+.sidebar ul{
+	margin-top: 100px
+}
+.sidebar li{
+    height: 50px;
+	text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    cursor: pointer;
+}
+.sidebar li:hover{
+	background: #74B1CE;
+}
+.user_manager{
+	width:85%;
+	height:480px;
+	float: right;
+}
+.manager_title{
+	height:50px;
+}
+.manager_title h2{
+	font-weight: normal;
+	display: inline-block;
+    margin: 15px 0 0 20px;
+    color:#1B6F94;
+}
+.add,.delete,.all,.del_all{
+	background-color: #fff;
+    padding: 3px 20px;
+    border-radius: 8px;
+    outline: none;
+    margin-left: 25px;
+}
+table{
+    border-spacing: 0;
+    width: 800px;
+    height: 300px;
+    margin: 20px auto;
+}
+table tr{
+    border-bottom: 1px solid blue;
+    display: block;
+    width: inherit;
+    height: 43px;
+    line-height: 43px;
+}
+table tr th:first-child{
+	color:#fff;
+}
+table th{
+    width: 16.6%;
+    display: inline-block;
+    float: left;
+}
+table td{
+    display: inline-block;
+    width: 16.6%;
+    float: left;
+    text-align: center;
+}
+.pageUp ,.pageNext{
+	background-color: #fff;
+    padding: 3px 20px;
+    border-radius: 8px;
+    outline: none;
+    float: right;
+    margin-right: 60px;
+}
+.info_manager{
+	width:85%;
+	height:480px;
+	float: right;	
+}
+.con_one{
+    width: 90%;
+    height: 300px;
+    margin: 20px auto;
+}
+.firstNew{
+	width: 30%;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    float: left;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.last{
+	width: 30%;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+    box-sizing: border-box;	
+}
+.header{
+	width:100%;
+	height:10%;
+	background: #E3E3E3;
+}
+.header h3{
+	display: inline-block;
+    margin: 2px 0 0 10px;
+    font-weight: normal;
+    font-size: medium;
+}
+.modify{
+    float: right;
+    margin: 5px 10px 0 0;
+    cursor: pointer;
+}
+.contains{
+	width: 100%;
+    height: 90%;
+    overflow: hidden;
+}
+.contain{
+	width: 100%;
+    height: 30%;
+}
+.contains p{
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-indent: 1em;
+}
+.contains h3{
+    text-indent: 1em;
+    padding: 10px 0 0 0;
+    line-height: 45px;
+
+}
+.con_two{
+    width: 90%;
+    height: 250px;
+    margin: 20px auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.last{
+	width: 30%;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+    box-sizing: border-box;	
+}
+.inform{
+	width: 100%;
+    height: 60%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-sizing:border-box;
+}
+.information{
+	width: 100%;
+    height: 40%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-sizing:border-box;
+}
+.lastu{
+	height:17%;
+}
+.contents{
+	height:83%;
+}
+.contents ul,.contentsl ul{
+	height: 100%;
+}
+.contents li{
+    height: 25%;
+    line-height: 35px;
+    text-indent: 0.5em;
+}
+.lastb{
+	height: 25%;
+}
+.contentsl{
+	height:75%;
+}
+.contentsl li{
+    height: 50%;
+    line-height: 43px;
+    text-indent: 0.5em;
+}
+.time{
+    font-size: 13px;
+    float: right;
+    margin: 0 10px 0 0;
+}
+.pic{
+    width: 35%;
+    height: 85%;
+    float: left;
+}
+.pic figure{
+ 	height:85%;
+}
+.pic img{
+    margin: 20px 0 10px 20px;
+    display: block;
+}
+.pic_title{
+	width:100%;
+	height:15%;
+	background: #E3E3E3;
+}
+.pic_title span{
+    margin-left: 26px;
+    line-height: 30px;
+}
+.pic button{
+    padding: 3px 20px;
+    border-radius: 8px;
+    outline: none;
+    margin: 10px 10px 0 60px;
+}
+.next{
+/*	border:1px solid #E99B2C;*/
+	background: #fff;
+	color:#E99B2C;
+}
+.replace{
+	background: #E99B2C;
+	color:#fff;
+/*	border:#E99B2C;*/
+}
+.pic h3{
+    padding: 10px 0 0 25px;
+}
